@@ -16,7 +16,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "background": "setup_node.sh"
+      "foreground": "setup_node.sh"
     },
     "finish": {
       "text": "finish.md"

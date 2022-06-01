@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md",
-        "background": "setup_node.sh"
+        "text": "step1.md"
       },
       {
         "title": "Step 2",
@@ -16,7 +15,8 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "setup_node.sh"
     },
     "finish": {
       "text": "finish.md"

@@ -2,8 +2,6 @@ To generate your code you'll use the [AsyncAPI Generator](https://github.com/asy
 
 # Generating code
 
-1. Make sure **NPM** is available: `apt install npm`{{exec}}
-
 1. Install the generator to use is at a command-line tool: `npm install -g @asyncapi/generator`{{exec}}
 
 1. Trigger generation of the Node.js code: `ag asyncapi.yaml @asyncapi/nodejs-template -o output -p server=mosquitto`{{exec}}
@@ -26,7 +24,7 @@ Install and start the service:
 
 In this tutorial you use [Eclipse Mosquitto](https://mosquitto.org/) broker:
 
-`docker run -it -p 1883:1883 eclipse-mosquitto`{{exec}}
+`docker run -it -p 1883:1883 eclipse-mosquitto:1.5`{{exec}}
 
 [ACCESS MQTT]({{TRAFFIC_HOST1_1883}})
 

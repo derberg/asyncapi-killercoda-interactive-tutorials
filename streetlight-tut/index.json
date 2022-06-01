@@ -22,12 +22,6 @@
       "text": "finish.md"
     }
   },
-  "files": [
-    "asyncapi.yaml"
-  ],
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
   "backend": {
     "imageid": "ubuntu"
   }

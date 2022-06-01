@@ -1,6 +1,6 @@
 Let's start by creating an AsyncAPI file to describe your API. It will help you generate the code and the documentation later.
 
-In the **Editor** tab, create `asyncapi.yaml` file in the root and put below content inside:
+In the **Editor** tab, create `asyncapi.yaml` file in the root and put below content inside. You can do it while the setup script is still running in **Tab1** terminal tab:
 
 ```yaml
 asyncapi: '2.0.0'

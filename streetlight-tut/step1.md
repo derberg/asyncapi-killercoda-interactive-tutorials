@@ -1,8 +1,8 @@
 Let's start by creating an AsyncAPI file to describe your API. It will help you generate the code and the documentation later.
 
-Copy below content to the editor, into `asyncapi.yaml` file:
+In the **Editor** tab, create `asyncapi.yaml` file in the root and put below content inside:
 
-<pre class="file" data-filename="asyncapi.yaml" data-target="replace">
+```yaml
 asyncapi: '2.0.0'
 info:
   title: Streetlights API
@@ -40,7 +40,7 @@ channels:
               type: string
               format: date-time
               description: Date and time when the message was sent.
-</pre>
+```{{copy}}
 
 Let's break it down into pieces:
 

@@ -2,7 +2,9 @@ To generate your code you'll use the [AsyncAPI Generator](https://github.com/asy
 
 # Generating code
 
-1. Install the generator to use is at a command-line tool: `npm install -g @asyncapi/generator`{{execute}}
+1. Make sure **NPM** is available: `apt install npm`{{exec}}
+
+1. Install the generator to use is at a command-line tool: `npm install -g @asyncapi/generator`{{exec}}
 
 1. Trigger generation of the Node.js code: `ag asyncapi.yaml @asyncapi/nodejs-template -o output -p server=mosquitto`{{exec}}
 
@@ -10,7 +12,7 @@ To generate your code you'll use the [AsyncAPI Generator](https://github.com/asy
 
 # Start your generated service
 
-> This runs in main terminal
+> Run this in terminal in Tab1
 
 Install and start the service:
 
@@ -20,19 +22,21 @@ Install and start the service:
 
 # Start MQTT broker
 
-> This runs in another terminal
+> Run this in another terminal. With **+** icon open Tab2
 
 In this tutorial you use [Eclipse Mosquitto](https://mosquitto.org/) broker:
 
-`docker run -it -p 1883:1883 eclipse-mosquitto`{{execute T2}}
+`docker run -it -p 1883:1883 eclipse-mosquitto`{{exec}}
 
-# Send a message to the broker
+[ACCESS MQTT]({{TRAFFIC_HOST1_1883}})
+
+> Run this in another terminal. With **+** icon open Tab3
 
 > This runs in yet another terminal. To see the message goes to your service logs check out the main terminal.
 
 Use MQTT client to send a message to the broker you started in the previous step:
 
-1. Install the MQTT.js library: `npm install mqtt -g`{{execute T3}}
-1. Send message to your application: `mqtt pub -t 'light/measured' -h 'localhost' -m '{"id": 1, "lumens": 3, "sentAt": "2017-06-07T12:34:32.000Z"}'`{{execute}}
+1. Install the MQTT.js library: `npm install mqtt -g`{{exec}}
+1. Send message to your application: `mqtt pub -t 'light/measured' -h 'localhost' -m '{"id": 1, "lumens": 3, "sentAt": "2017-06-07T12:34:32.000Z"}'`{{exec}}
 
 Check the first terminal to see that your generated service received a message. 

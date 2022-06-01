@@ -26,7 +26,7 @@ In this tutorial you use [Eclipse Mosquitto](https://mosquitto.org/) broker:
 
 `docker run -it -p 1883:1883 eclipse-mosquitto:1.5`{{exec}}
 
-[ACCESS MQTT]({{TRAFFIC_HOST1_1883}})
+# Connect to broker with MQTT client - message producer
 
 > Run this in another terminal. With **+** icon open Tab3
 

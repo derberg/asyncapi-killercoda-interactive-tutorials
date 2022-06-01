@@ -25,6 +25,7 @@ channels:
       summary: Inform about environmental lighting conditions for a particular streetlight.
       operationId: onLightMeasured
       message:
+        name: lumensInfo
         payload:
           type: object
           properties:

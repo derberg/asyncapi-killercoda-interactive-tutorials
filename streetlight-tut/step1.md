@@ -3,7 +3,7 @@ Let's start by creating an AsyncAPI file to describe your API. It will help you 
 In the **Editor** tab, create `asyncapi.yaml` file in the root and put below content inside. You can do it while the setup script is still running in **Tab1** terminal tab:
 
 ```yaml
-asyncapi: '2.0.0'
+asyncapi: '2.4.0'
 info:
   title: Streetlights API
   version: '1.0.0'
@@ -46,7 +46,7 @@ channels:
 Let's break it down into pieces:
 
 ```yaml
-asyncapi: '2.0.0'
+asyncapi: '2.4.0'
 info:
   title: Streetlights API
   version: '1.0.0'

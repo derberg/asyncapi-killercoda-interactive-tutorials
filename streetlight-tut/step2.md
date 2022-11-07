@@ -6,7 +6,7 @@ To generate your code you'll use the [AsyncAPI Generator](https://github.com/asy
 
 1. Trigger generation of the Node.js code: `ag asyncapi.yaml @asyncapi/nodejs-template -o output -p server=mosquitto`{{exec}}
 
-1. And voilà! In the editor you can see a new folder is created with generated Node.js application. Enter the folder in the terminal: `cd output`{{exec}}
+1. And voilà! In the editor you can see a new folder is created with generated Node.js application. Goto your `Tab1` terminal and enter the `output` folder from the there: `cd output`{{exec}}
 
 # Start your generated service
 

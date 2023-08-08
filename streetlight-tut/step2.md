@@ -1,10 +1,10 @@
-To generate your code you'll use the [AsyncAPI Generator](https://github.com/asyncapi/generator) Node.js template.
+To generate your code you'll use the [AsyncAPI CLI](https://github.com/asyncapi/cli) Node.js template.
 
 # Generating code
 
-1. Install the generator to use is at a command-line tool: `npm install -g @asyncapi/generator`{{exec}}
+1. Install the generator to use is at a command-line tool: `npm install -g @asyncapi/cli`{{exec}}
 
-1. Trigger generation of the Node.js code: `ag asyncapi.yaml @asyncapi/nodejs-template -o output -p server=mosquitto`{{exec}}
+1. Trigger generation of the Node.js code: `asyncapi generate fromTemplate asyncapi.yaml @asyncapi/nodejs-template -o output -p server=mosquitto`{{exec}}
 
 1. And voilà! In the editor, you can see a new folder is created with generated Node.js application. Go to your `Tab1` terminal and enter the `output` folder from there: `cd output`{{exec}}
 

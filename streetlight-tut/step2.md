@@ -1,8 +1,8 @@
-To generate your code you'll use the [AsyncAPI CLI](https://github.com/asyncapi/cli) Node.js template.
+To generate your code you'll use the [AsyncAPI CLI](https://github.com/asyncapi/cli) Node.js template. You don't need Node.js to install it. There are also different options to use the tool, like Brew.
 
 # Generating code
 
-1. Install the generator to use is at a command-line tool: `npm install -g @asyncapi/cli`{{exec}}
+1. Install the AsyncAPI CLI, with generator included, to use is at a command-line tool: `npm install -g @asyncapi/cli@0.58.11`{{exec}}
 
 1. Trigger generation of the Node.js code: `asyncapi generate fromTemplate asyncapi.yaml @asyncapi/nodejs-template@0.13.3 -o output -p server=mosquitto`{{exec}}
 

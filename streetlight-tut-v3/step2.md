@@ -2,7 +2,7 @@ Now you'll learn how to generate an application that uses [Glee](https://github.
 
 # Generating code
 
-1. Install the AsyncAPI CLI, with generator included, to use is at a command-line tool: `npm install -g @asyncapi/cli@1.1.8`{{exec}}
+1. Install the AsyncAPI CLI, with generator included, to use is at a command-line tool: `npm install -g @asyncapi/cli@1.2.0`{{exec}}
 
 1. Trigger the creation of the Glee project: `asyncapi new glee --name=tutorial --template tutorial`{{exec}}
 

@@ -1,0 +1,28 @@
+{
+  "title": "Streetlight tutorial - AsyncAPI v3",
+  "description": "Create basic AsyncAPI file and generate code that can out of the box interact with the broker",
+  "difficulty": "Beginner",
+  "time": "10min",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "foreground": "setup_node.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
